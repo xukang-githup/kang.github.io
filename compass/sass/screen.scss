@@ -1,0 +1,23 @@
+/* 引入css normalize 所有模块 */
+// 需要在readme.md里头提到要用吧compass默认的reset改成normalize, 不用。不用。不用。
+@import "normalize";
+/* 引入5大核心模块，直接调用CSS3同名mixin来写 */
+@import "compass/CSS3"; 
+
+// #properties_of_CSS3 {
+// 	@include box-shadow(2px 2px 3px 2px white);
+// }
+
+@import "general/variable";
+@import "general/genaral";
+@import "layout/nav";
+@import "layout/header";
+@import "layout/article-excerpt";
+@import "layout/footer";
+@import "layout/post-two-cols";
+@import "layout/post-tags-categories";
+@import "layout/archive";
+@import "layout/page-tags-categories";
+@import "layout/pagination";
+@import "layout/default-highlight";
+@import "layout/algolia";
